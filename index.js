@@ -9,7 +9,7 @@ app.use(express.json());
 const userStore = {};
 app.post("/register", (req, res) => {
     const { username, password } = req.body;
-    const id = `${Date.now()}`;
+    const id = `user_${Date.now()}`;
     const user = {
         id,
         username,

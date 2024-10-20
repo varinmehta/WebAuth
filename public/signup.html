@@ -28,7 +28,10 @@
                         password: passwordField.value
                     })
                 })
-                const result = await response.json();
+                const result = await response.json()
+                const {id} = result
+
+                window.location.replace(`http://localhost:3000/profile.html?userId=${id}`)
             })
         </script>
     </body>
