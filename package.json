@@ -15,6 +15,7 @@
   "dependencies": {
     "@simplewebauthn/browser": "^11.0.0",
     "@simplewebauthn/server": "^11.0.0",
+    "@simplewebauthn/types": "^11.0.0",
     "express": "^4.19.2"
   }
 }
