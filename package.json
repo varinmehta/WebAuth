@@ -1,19 +1,19 @@
 {
-  "name": "webauth",
+  "name": "web-authentication",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.0"
   },
   "dependencies": {
-    "@simplewebauthn/browser": "^11.0.0",
-    "@simplewebauthn/server": "^11.0.0",
-    "express": "^4.21.1"
+    "@simplewebauthn/server": "^10.0.0",
+    "express": "^4.19.2"
   }
 }
